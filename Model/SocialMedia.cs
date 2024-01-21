@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    internal class SocialMedia
+    public class SocialMedia
     {
         public int Id { get; set; }
         public string Icon { get; set; }

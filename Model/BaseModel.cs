@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    internal class BaseModel
+    public class BaseModel
     {
         public int Id { get; set; }
         public string Name { get; set; }

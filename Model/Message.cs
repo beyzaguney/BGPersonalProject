@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    internal class Message :BaseModel
+    public class Message :BaseModel
     {
         public string Email { get; set; }
         public string Subject { get; set; }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    internal class Portfolio :BaseModel
+    public class Portfolio :BaseModel
     {
         public string ImageUrl { get; set; }
         public string Url { get; set; }
