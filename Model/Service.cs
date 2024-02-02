@@ -8,6 +8,6 @@ namespace Model
 {
     public class Service:BaseModel
     {
-
+        public string Icon { get; set; }
     }
 }

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Model
 {
-    public class SocialMedia
+    public class SocialMedia:BaseModel
     {
-        public int Id { get; set; }
+       
         public string Icon { get; set; }
     }
 }
