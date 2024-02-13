@@ -1,12 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace BGPersonalProject.Controllers
+namespace BGPersonalProject.Controllers;
+
+public class DefaultController : Controller
 {
-    public class DefaultController : Controller
+    public IActionResult Index()
     {
-        public IActionResult Index()
-        {
-            return View();
-        }
+        return View();
     }
 }

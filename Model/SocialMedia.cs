@@ -8,7 +8,6 @@ namespace Model
 {
     public class SocialMedia:BaseModel
     {
-       
         public string Icon { get; set; }
     }
 }

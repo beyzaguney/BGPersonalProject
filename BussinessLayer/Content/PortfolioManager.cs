@@ -11,8 +11,8 @@ namespace BusinessLayer.Content;
 
 public class PortfolioManager:IGenericService<Portfolio>,IPortfolioService
 {
-    private readonly IWorkDal _workDal;
-    public PortfolioManager (IWorkDal workDal) 
+    private readonly IPortfolioDal _workDal;
+    public PortfolioManager (IPortfolioDal workDal) 
     {
         _workDal = workDal; 
     }

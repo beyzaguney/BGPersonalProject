@@ -8,5 +8,5 @@ namespace Model;
 
 public class Skill:BaseModel
 {
-    public int value { get; set; }
+    public int Value { get; set; }
 }

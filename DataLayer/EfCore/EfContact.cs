@@ -9,11 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer.EfCore;
 
-public class EfAbout : GenericRepository<About>, IAboutDal
+public class EfContact:GenericRepository<Contact>,IContactDal
 {
-    public EfAbout(AppDbContext appDbContext) : base(appDbContext)
-    {
-    }
-
-
+    public EfContact(AppDbContext dbContext):base(dbContext) { }
 }
